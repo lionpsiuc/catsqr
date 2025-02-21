@@ -344,7 +344,7 @@ void tsqr(int m, int n) {
  */
 int main(int argc, char **argv) {
   MPI_Init(&argc, &argv);
-  tsqr(32, 4);
+  tsqr(16, 4);
   MPI_Finalize();
   return 0;
 }
